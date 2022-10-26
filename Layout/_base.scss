@@ -1,3 +1,249 @@
-body{
-    background-color: orange;
+*{
+    box-sizing: border-box;
+}
+
+h2, h3, h4, p{
+    margin: 0;
+}
+
+/*-----------------------------------------------------------
+-------------------------Header------------------------------
+------------------------------------------------------------*/
+
+header{
+    min-height: 15vh;
+    display: flex;
+    
+}
+
+.header_title{
+    width: 80vw;
+    background-color: aqua;
+}
+
+nav{
+    width: 20vw;
+    background-color: green;
+}
+
+h1{
+    margin:0;
+}
+
+/*-----------------------------------------------------------
+-------------------------Header------------------------------
+------------------------------------------------------------*/
+
+.img_sofia{
+    min-height: 85vh ;
+    border: black 2px solid;
+}
+
+/*-----------------------------------------------------------
+-------------------------About me------------------------------
+------------------------------------------------------------*/
+
+.about_me{
+    min-height: 100vh;
+    border: black solid 2px;
+}
+
+.about_me h2{
+    height: 15vh;
+    background-color: red;
+}
+
+.about_me_article{
+    min-height: 85vh;
+    
+}
+
+.about_me_article p{
+    margin:0;
+    height: 60vh;
+    background-color: grey;
+}
+
+.about_me_icons{
+    height:25vh;
+    display: flex;
+}
+
+.about_me_icons i{
+    width:50vw;
+    border: black 2px solid;
+}
+
+.about_me_img{
+    display: none;
+}
+
+/*-----------------------------------------------------------
+-------------------------Skills----------------------------
+------------------------------------------------------------*/
+
+.skills{
+    min-height: 100vh;
+    border: solid black 2px;
+}
+
+.skills .skills_header{
+    height: 15vh;
+    background-color: red;
+}
+
+.skills_language{
+    min-height: 42.5vh;
+    background-color: blue;
+}
+
+.skills_code{
+    min-height: 42.5vh;
+    background-color: blue;
+}
+
+.skills_language h2, .skills_code h2{
+    height:10vh;
+    border: black solid 2px;
+    background-color: green;
+}
+
+.skills_language article, .skills_code article{
+    display: flex;
+}
+
+.skills_small_header, .skills_dots{
+    width: 50vw;
+    height: 16.25vh;
+    border: black solid 2px;
+}
+
+
+/*-----------------------------------------------------------
+-------------------------Education---------------------------
+------------------------------------------------------------*/
+
+.education{
+    min-height: 150vh;
+    border: black solid 2px;
+}
+
+.education h2{
+    height: 15vh; 
+    background-color: red;
+}
+
+.education div article{
+    height: 45vh;
+    border: black solid 2px;
+}
+
+.education div article h3{
+    height: 12vh;
+    background-color: green;
+}
+
+.education div article h4{
+    height: 8vh;
+    background-color: purple;
+}
+
+.education div article p{
+    height: 25vh;
+    background-color: greenyellow;
+
+}
+
+
+/*-----------------------------------------------------------
+-------------------------Work---------------------------
+------------------------------------------------------------*/
+
+.work{
+    min-height: 100vh;
+    border: black solid 2px;
+}
+
+.work h2{
+    height: 15vh;
+    background-color: red;
+}
+
+.work div article{
+    height: 45vh;
+    border: black solid 2px;
+}
+
+.work div article h3{
+    height: 12vh;
+    background-color: green;
+}
+
+.work div article h4{
+    height: 8vh;
+    background-color: purple;
+}
+
+.work div article p{
+    height: 25vh;
+    background-color: greenyellow;
+}
+
+/*-----------------------------------------------------------
+-------------------------Projects---------------------------
+------------------------------------------------------------*/
+
+.projects {
+    min-height: 100vh;
+    border: black solid 2px;
+}
+
+.projects h2{
+    height: 15vh;
+    background-color: red;
+}
+
+.projects article{
+    min-height: 85vh;
+    background-color: greenyellow;
+}
+
+.projects h3{
+    height: 15vh;
+    background-color: yellow;
+}
+
+.projects article p{
+    height: 40vh;
+    border: black solid 2px;
+}
+
+.projects article section{
+    height: 100vh;
+    border: solid black 2px;
+}
+
+/*-----------------------------------------------------------
+-------------------------Contact---------------------------
+------------------------------------------------------------*/
+
+.contact_me{
+    min-height: 60vh;
+    border: black 2px solid;
+}
+
+.contact_me h2{
+    height: 15vh;
+    background-color: black;
+}
+
+.contact_me article address{
+    min-height: 40vh;
+    background-color: burlywood;
+
+}
+
+.contact_me article section{
+    height: 20vh;
+    border: red solid 2px;
 }
