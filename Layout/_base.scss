@@ -129,7 +129,7 @@ li{
 
 .about_me_article p{
     margin:0;
-    height: 60vh;
+    height: 85vh;
     background-color: grey;
 }
 
@@ -238,6 +238,10 @@ li{
     background-color: red;
 }
 
+.work div{
+    height: 85vh;
+}
+
 .work div article{
     height: 45vh;
     border: black solid 2px;
@@ -273,7 +277,7 @@ li{
 }
 
 .projects article{
-    min-height: 85vh;
+    min-height: 70vh;
     background-color: greenyellow;
 }
 
@@ -315,4 +319,14 @@ li{
 .contact_me article section{
     height: 20vh;
     border: red solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact_me article section i{
+    width: 10vh;
+    height: 10vh;
+    border: black solid 2px;
 }
