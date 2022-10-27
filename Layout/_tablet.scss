@@ -34,32 +34,31 @@ nav {
 ------------------------------------------------------------*/
 
 .about_me_article{
-   display: grid;
-   grid-template-columns: 50vw 50vw;
-   grid-template-rows: 40vh 40vh;
-    
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .about_me_article p{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    width: 50vw;
 }
 
 .about_me_icons{
     display: none;
-
 }
 
 .about_me_img{
-    display: grid;
-    height:85vh;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 50vw;
 }
 
 .about_me_img img{
     border: black solid 2px;
+    height: 42.5vh;
 }
+
 
 /*-----------------------------------------------------------
 -------------------------Education---------------------------

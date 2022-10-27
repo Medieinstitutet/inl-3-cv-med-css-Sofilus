@@ -3,3 +3,7 @@
 @media screen and (min-width: 850px){
     @import 'Layout/_tablet.scss';
 }
+
+@media screen and (min-width: 1100px){
+    @import 'Layout/_desktop.scss';
+}
