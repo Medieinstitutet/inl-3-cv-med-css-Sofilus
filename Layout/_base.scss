@@ -212,25 +212,24 @@ li{
     background-color: red;
 }
 
-.education div article{
+.education_box article{
     height: 45vh;
     border: black solid 2px;
 }
 
-.education div article h3{
+.education_box article h3{
     height: 12vh;
     background-color: green;
 }
 
-.education div article h4{
+.education_box article h4{
     height: 8vh;
     background-color: purple;
 }
 
-.education div article p{
+.education_box article p{
     height: 25vh;
     background-color: greenyellow;
-
 }
 
 
@@ -239,7 +238,7 @@ li{
 ------------------------------------------------------------*/
 
 .work{
-    min-height: 100vh;
+    min-height: 150vh;
     border: black solid 2px;
 }
 
@@ -248,30 +247,25 @@ li{
     background-color: red;
 }
 
-.work div{
-    height: 85vh;
-}
-
-.work div article{
+.work_box article{
     height: 45vh;
     border: black solid 2px;
 }
 
-.work div article h3{
+.work_box article h3{
     height: 12vh;
     background-color: green;
 }
 
-.work div article h4{
+.work_box article h4{
     height: 8vh;
     background-color: purple;
 }
 
-.work div article p{
+.work_box article p{
     height: 25vh;
     background-color: greenyellow;
 }
-
 /*-----------------------------------------------------------
 -------------------------Projects---------------------------
 ------------------------------------------------------------*/
@@ -289,11 +283,15 @@ li{
 .projects article{
     min-height: 70vh;
     background-color: greenyellow;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .projects h3{
     height: 15vh;
     background-color: yellow;
+    width: 100%;
 }
 
 .projects article p{
@@ -311,7 +309,7 @@ li{
 ------------------------------------------------------------*/
 
 .contact_me{
-    min-height: 60vh;
+    min-height: 100vh;
     border: black 2px solid;
 }
 
@@ -320,14 +318,21 @@ li{
     background-color: black;
 }
 
+.contact_me article{
+    height: 85vh;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .contact_me article address{
-    min-height: 40vh;
+    min-height: 60vh;
     background-color: burlywood;
 
 }
 
 .contact_me article section{
-    height: 20vh;
+    height: 25vh;
     border: red solid 2px;
     display: flex;
     flex-direction: row;
