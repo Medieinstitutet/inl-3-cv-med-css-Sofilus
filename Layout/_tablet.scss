@@ -6,6 +6,15 @@ header{
     min-height: 20vh;
 }
 
+.header_title{
+    background-image: url(./Assets/fern_background_1920.jpg);
+    display: flex;
+}
+
+.header_title h2{
+    display: block;
+}
+
 /*-----------------------------------------------------------
 -------------------------Menu button------------------------------
 ------------------------------------------------------------*/
@@ -16,7 +25,6 @@ header{
 }
 
 .menu_button span{
-    background-color: black;
     width: 40px;
 }
 

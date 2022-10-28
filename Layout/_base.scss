@@ -6,6 +6,15 @@ h2, h3, h4, p{
     margin: 0;
 }
 
+.row_brake{
+    content: ' ';
+    display: block;
+}
+main{
+    background-color:rgb(230, 225, 225);
+}
+
+
 /*-----------------------------------------------------------
 -------------------------Header------------------------------
 ------------------------------------------------------------*/
@@ -17,12 +26,24 @@ header{
 
 .header_title{
     width: 100vw;
-    background-color: aqua;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header_title h2{
+    display: none;
+    color: white;
+    margin:0;
 }
 
 h1{
     margin:0;
+    color: white;
+    margin-top: 40px;
 }
+
 
 /*-----------------------------------------------------------
 -------------------------Menu button------------------------------
@@ -41,7 +62,7 @@ h1{
 }
 
 .menu_button span{
-    background-color: black;
+    background-color: white;
     width: 35px;
     height: 5px;
     display: block;
@@ -64,7 +85,7 @@ nav {
     position: fixed;
     top: 75px;
     right: 0;
-    background-color: black;
+    background-color: lightseagreen;
     width: 50vw;
     height: 50vh;
     visibility: hidden;
@@ -103,15 +124,39 @@ li{
 -------------------------Header------------------------------
 ------------------------------------------------------------*/
 
-.img_sofia{
-    min-height: 85vh;
-    max-width: 1400px;
-    border: black 2px solid;
-    margin-left: auto;
-    margin-right: auto;
-
+.first_page_box{
+ height:13vh ;
+ width: 80vw;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 1vh;
 }
 
+.first_page_box p{
+    width: 60vw;
+    max-width: 308px;
+    height: 11vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+   
+}
+
+.img_sofia{
+    min-height: 70vh;
+    max-width: 334px ;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+.img_sofia img{
+    width: 100%;
+    max-width: 334px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+}
 /*-----------------------------------------------------------
 -------------------------About me------------------------------
 ------------------------------------------------------------*/
