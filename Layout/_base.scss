@@ -10,8 +10,9 @@ h2, h3, h4, p{
     content: ' ';
     display: block;
 }
+
 main{
-    background-color:rgb(230, 225, 225);
+    background-color:white;
 }
 
 
@@ -26,7 +27,7 @@ header{
 
 .header_title{
     width: 100vw;
-    background-color: black;
+    background-color: rgb(83, 115, 72);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -40,7 +41,7 @@ header{
 
 h1{
     margin:0;
-    color: white;
+    color:  white;
     margin-top: 40px;
 }
 
@@ -62,7 +63,7 @@ h1{
 }
 
 .menu_button span{
-    background-color: white;
+    background-color: black;
     width: 35px;
     height: 5px;
     display: block;
@@ -163,12 +164,19 @@ li{
 
 .about_me{
     min-height: 100vh;
-    border: black solid 2px;
 }
 
-.about_me h2{
+.about_me div{
     height: 15vh;
-    background-color: red;
+    width: 100vw;
+    border: black solid 3px;
+    text-align: center;
+    background-image: url('./Assets/green_background_1024px.jpg');
+}
+
+.about_me div h2{
+    color: white;
+    margin-top: 5vh;
 }
 
 .about_me_article{
@@ -176,10 +184,26 @@ li{
     max-width: 1400px;
 }
 
-.about_me_article p{
+.about_me_article_box{
+    width: 80vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: rgb(0, 0, 0) solid 7px;
+    color: black;
+}
+
+.about_me_article_box p{
     margin:0;
-    height: 85vh;
-    background-color: blue;
+    margin-top: 20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.about_me_article_box p:nth-child(5){
+    margin-bottom: 20px;
 }
 
 .about_me_icons{
@@ -188,8 +212,21 @@ li{
 }
 
 .about_me_icons i{
-    border: black 2px solid;
     width: 50vw;
+}
+
+.fa-solid.fa-dog{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 70pt;
+    margin-left: auto;
+}
+
+.fa-regular.fa-futbol{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 70pt;
+    margin-left: auto;
 }
 
 .about_me_img{

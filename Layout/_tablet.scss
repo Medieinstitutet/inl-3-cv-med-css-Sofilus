@@ -7,7 +7,7 @@ header{
 }
 
 .header_title{
-    background-image: url(./Assets/fern_background_1920.jpg);
+    background-image: url('./Assets/fern_background_1920.jpg');
     display: flex;
 }
 
@@ -45,10 +45,16 @@ nav {
    display: flex;
    margin-left: auto;
    margin-right: auto;
+   
 }
 
-.about_me_article p{
+.about_me_article_box{
+     max-width: 700px;
+}
+
+.about_me_article_box p{
     width: 50vw;
+    max-width: 650px;
 }
 
 .about_me_icons{
@@ -60,6 +66,7 @@ nav {
     flex-direction: column;
     height: 85vh;
     width: 50vw;
+    max-width: 700px;
 }
 
 .about_me_img img{
