@@ -183,7 +183,7 @@ li{
     margin-top: 15px;
     margin-bottom: 15px;
     border: rgb(0, 0, 0) solid 7px;
-    background-color: rgb(214, 212, 212);
+    background-color: rgb(245, 240, 241);
     color: black;
 }
 
@@ -248,7 +248,7 @@ li{
 }
 
 .skills .skills_header{
-   margin-top: 3vh;
+   margin-top: 5vh;
    color: white;
 }
 
@@ -320,33 +320,67 @@ li{
 ------------------------------------------------------------*/
 
 .education{
-    min-height: 150vh;
+    min-height: 100vh;
     border: black solid 2px;
 }
 
-.education h2{
-    height: 15vh; 
-    background-color: red;
+.education_header_box{
+    height: 15vh;
+    width: 100vw;
+    border: black solid 3px;
+    text-align: center;
+    background-image: url('./Assets/steffi-harms-Cj0tPzC5Uic-unsplash-1024.jpg');
+}
+
+.education_header_box h2{
+    color: white;
+    margin-top: 5vh;
 }
 
 .education_box article{
-    height: 45vh;
-    border: black solid 2px;
+    height: auto;
+    border: black solid 5px;
+    margin-top: 60px;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  rgb(245, 240, 241);
+}
+
+.education_position_text{
+    text-align: center;
 }
 
 .education_box article h3{
-    height: 12vh;
-    background-color: green;
+    margin-top: 3vh;
 }
 
 .education_box article h4{
-    height: 8vh;
-    background-color: purple;
+    height: 5vh;
+    margin-top: 5px;
 }
 
 .education_box article p{
-    height: 25vh;
-    background-color: greenyellow;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.education_ag div h3 span:nth-child(1), .education_ag div h3 span:nth-child(3){
+    color: rgb(197, 43, 151);
+}
+
+.education_ag div h3 span:nth-child(2), .education_ag div h3 span:nth-child(4){
+    color: grey;
+}
+
+.education_gu div h3 span:nth-child(1), .education_gu div h3 span:nth-child(3){ 
+    color: blue;
+}
+
+.education_mi div h3 span:nth-child(2), .education_mi div h3 span:nth-child(4){
+    color: orange;
 }
 
 
