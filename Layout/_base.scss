@@ -11,6 +11,9 @@ h2, h3, h4, p{
     display: block;
 }
 
+.text_align_center{
+    text-align: center;
+}
 
 /*-----------------------------------------------------------
 -------------------------Header------------------------------
@@ -135,7 +138,6 @@ li{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vh;
-   
 }
 
 .img_sofia{
@@ -347,10 +349,6 @@ li{
     background-color:  rgb(245, 240, 241);
 }
 
-.education_position_text{
-    text-align: center;
-}
-
 .education_box article h3{
     margin-top: 3vh;
 }
@@ -389,34 +387,69 @@ li{
 ------------------------------------------------------------*/
 
 .work{
-    min-height: 150vh;
+    min-height: 100vh;
     border: black solid 2px;
 }
 
-.work h2{
+.work_header_box{
     height: 15vh;
-    background-color: red;
+    width: 100vw;
+    border: black solid 3px;
+    text-align: center;
+    background-image: url('./Assets/steffi-harms-Cj0tPzC5Uic-unsplash-1024.jpg');
+}
+
+.work_header_box h2{
+    color: white;
+    margin-top: 5vh;
 }
 
 .work_box article{
-    height: 45vh;
-    border: black solid 2px;
+    height: auto;
+    border: black solid 5px;
+    margin-top: 60px;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  rgb(245, 240, 241);
 }
 
 .work_box article h3{
-    height: 12vh;
-    background-color: green;
+    margin-top: 3vh;
 }
 
 .work_box article h4{
-    height: 8vh;
-    background-color: purple;
+    height: 5vh;
+    margin-top: 5px;
 }
 
 .work_box article p{
-    height: 25vh;
-    background-color: greenyellow;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+.work_electrolux div h3 span:nth-child(1), .work_electrolux div h3 span:nth-child(3){
+    color: rgb(19, 27, 141);
+}
+
+.work_p7 div h3 span:nth-child(1), .work_p7 div h3 span:nth-child(3){ 
+    color: rgb(168, 168, 8);
+}
+
+.work_p7 div h3 span:nth-child(2), .work_p7 div h3 span:nth-child(4){ 
+    color: red;
+}
+
+.work_nellie div h3 span:nth-child(1), .work_nellie div h3 span:nth-child(3){
+    color: rgb(0, 195, 255);
+}
+
+.work_nellie div h3 span:nth-child(2), .work_nellie div h3 span:nth-child(4){
+    color: brown;
+}
+
 /*-----------------------------------------------------------
 -------------------------Projects---------------------------
 ------------------------------------------------------------*/
