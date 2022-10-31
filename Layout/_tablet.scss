@@ -2,11 +2,6 @@
 -------------------------Header------------------------------
 ------------------------------------------------------------*/
 
-.header_title{
-    background-image: url('./Assets/fern_background_1920.jpg');
-    display: flex;
-}
-
 .header_title h2{
     display: block;
 }
@@ -41,11 +36,13 @@ nav {
    display: flex;
    margin-left: auto;
    margin-right: auto;
+   align-items: center;
    
 }
 
 .about_me_article_box{
      max-width: 700px;
+     height: fit-content;
 }
 
 .about_me_article_box p{
@@ -60,14 +57,28 @@ nav {
 .about_me_img{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     height: 85vh;
     width: 50vw;
     max-width: 700px;
 }
 
 .about_me_img img{
-    border: black solid 2px;
-    height: 42.5vh;
+    height: auto;
+    width: 100%;
+    max-width: 250px;
+}
+
+/*-----------------------------------------------------------
+-------------------------Skills----------------------------
+------------------------------------------------------------*/
+
+.skills_box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    justify-content: space-around;
 }
 
 
@@ -81,49 +92,14 @@ nav {
     margin-right: auto;
 }
 
-.education_box{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 15rem 15rem 15rem 15rem 15rem 15rem;
-}
-
 .education_box article{
     width: 40vw;
-    height: 60vh;
     max-width: 500px;
     max-height: 400px;
     margin-left: auto;
     margin-right: auto;
+    height: fit-content;
 }
-
-.education_box article p{
-    height: 34vh;
-    max-height:249px;
-}
-
-.education_ag{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 50px;
-}
-
-.education_gu{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-.education_mi{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    margin-top: 170px;
-}
-
 
 /*-----------------------------------------------------------
 -------------------------Work---------------------------
@@ -135,51 +111,16 @@ nav {
     margin-right: auto;
 }
 
-.work_box{
-   min-height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 15rem 15rem 15rem 15rem 15rem 15rem;
-}
 
 .work_box article{
     width: 40vw;
-    height: 60vh;
     max-width: 500px;
     max-height: 400px;
     margin-left: auto;
     margin-right: auto;
+    height: fit-content;
+    
 }
-
-.work_box article p{
-    height: 34vh;
-    max-height:249px;
-}
-
-
-.work_electrolux{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 50px;
-}
-
-.work_p7{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-.work_nellie{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    margin-top: 170px;
-}
-
 /*-----------------------------------------------------------
 -------------------------Projects---------------------------
 ------------------------------------------------------------*/

@@ -20,7 +20,7 @@ h2, h3, h4, p{
 ------------------------------------------------------------*/
 
 header{
-    min-height: 150px;
+    min-height: 10vh;
     display: flex;
 }
 
@@ -29,7 +29,14 @@ header{
     background-color: rgb(17, 29, 47);
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    margin:0;
+    color:  white;
 }
 
 .header_title h2{
@@ -38,11 +45,7 @@ header{
     margin:0;
 }
 
-h1{
-    margin:0;
-    color:  white;
-    margin-top: 40px;
-}
+
 
 
 /*-----------------------------------------------------------
@@ -125,8 +128,13 @@ li{
 ------------------------------------------------------------*/
 
 .first_page{
-    min-height: 88vh;
-}
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+
 
 .first_page_box{
  height: 100px;
@@ -141,7 +149,7 @@ li{
     max-width: 308px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3vh;
+    margin-top: 30px;
 }
 
 .img_sofia{
@@ -159,36 +167,30 @@ li{
 -------------------------About me------------------------------
 ------------------------------------------------------------*/
 
-.about_me{
-    min-height: 100vh;
-}
-
 .about_me div{
     height: 150px;
     width: 100vw;
-    border: black solid 3px;
     text-align: center;
     background-image: url('./Assets/steffi-harms-Cj0tPzC5Uic-unsplash-1024.jpg');
 }
 
 .about_me div h2{
     color: white;
-    margin-top: 60px;
+    line-height: 150px
 }
 
 .about_me_article{
-    min-height: 85vh;
     max-width: 1400px;
 }
 
 .about_me_article_box{
     width: 80vw;
-    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    border: rgb(0, 0, 0) solid 7px;
+    border: rgb(26, 25, 25) solid 3px;
+    border-radius: 5px;
     background-color: rgb(245, 240, 241);
     color: black;
 }
@@ -216,14 +218,14 @@ li{
 
 .fa-solid.fa-dog{
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 60px;
     font-size: 70pt;
     margin-left: auto;
 }
 
 .fa-regular.fa-futbol{
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 60px;
     font-size: 70pt;
     margin-left: auto;
 }
@@ -236,15 +238,9 @@ li{
 -------------------------Skills----------------------------
 ------------------------------------------------------------*/
 
-
-.skills{
-    min-height: 100vh;
-}
-
 .skills_header_box{
     height: 150px;
     width: 100vw;
-    border: black solid 3px;
     text-align: center;
     background-image: url('./Assets/steffi-harms-Cj0tPzC5Uic-unsplash-1024.jpg');
 }
@@ -256,8 +252,8 @@ li{
 }
 
 .skills .skills_header{
-   margin-top: 60px;
    color: white;
+   line-height: 150px;
 }
 
 .skills_language{
@@ -282,8 +278,8 @@ li{
 }
 
 .skills_language h2, .skills_code h2{
-    margin-top: 1.5vh;
     color: white;
+    line-height: 70px;
    
 }
 
@@ -330,25 +326,23 @@ height: 15px;
 ------------------------------------------------------------*/
 
 .education{
-    min-height: 100vh;
     border: black solid 2px;
 }
 
 .education_header_box{
     height: 150px;
     width: 100vw;
-    border: black solid 3px;
     text-align: center;
     background-image: url('./Assets/steffi-harms-Cj0tPzC5Uic-unsplash-1024.jpg');
 }
 
 .education_header_box h2{
     color: white;
-    margin-top: 60px;
+    line-height: 150px;
 }
 
 .education_container{
-   min-height: 75vh;
+   min-height: 700px;
 }
 
 .education_box article{
@@ -363,13 +357,10 @@ height: 15px;
     background-color:  rgb(245, 240, 241);
 }
 
-.education_box article h3{
-    margin-top: 30px;
-}
-
-.education_box article h4{
-    height: 60px;
-    margin-top: 5px;
+.dark_header{
+    background-color: rgb(58, 58, 58);
+    padding: 15px;
+    color: white;
 }
 
 .education_box article p{
@@ -383,29 +374,28 @@ height: 15px;
 -------------------------Work-------------------------------
 ------------------------------------------------------------*/
 .work{
-    min-height: 100vh;
     border: black solid 2px;
 }
 
 .work_container{
-    min-height: 75vh;
+    min-height: 700px;
 }
 
 .work_header_box{
     height: 150px;
     width: 100vw;
-    border: black solid 3px;
     text-align: center;
     background-image: url('./Assets/steffi-harms-Cj0tPzC5Uic-unsplash-1024.jpg');
 }
 
 .work_header_box h2{
     color: white;
-    margin-top: 60px;
+    line-height: 150px;
 }
 
 .work_box article{
     height: auto;
+    min-height: 180px;
     border: black solid 5px;
     margin-top: 60px;
     max-width: 380px;
@@ -413,15 +403,6 @@ height: 15px;
     margin-right: auto;
     background-color:  rgb(245, 240, 241);
     margin-bottom: 10px;
-}
-
-.work_box article h3{
-    margin-top: 30px;
-}
-
-.work_box article h4{
-    height: 60px;
-    margin-top: 5px;
 }
 
 .work_box article p{
@@ -436,36 +417,33 @@ height: 15px;
 ------------------------------------------------------------*/
 
 .projects {
-    min-height: 100vh;
     border: black solid 2px;
 }
 
 .projekts_header_box{
     height: 150px;
     width: 100vw;
-    border: black solid 3px;
     text-align: center;
     background-image: url('./Assets/steffi-harms-Cj0tPzC5Uic-unsplash-1024.jpg');
 }
 
 .projects h2{
     color: white;
-    margin-top: 60px;
+    line-height: 150px;
 }
 
 .projects_to_the_moon{
     height: 100px;
     width: 100vw;
-    border: black solid 3px;
     text-align: center;
 }
 
 .projects h3{
-    margin-top: 30px;
+    line-height: 100px;
 }
 
 .projects article{
-    min-height: 70vh;
+    min-height: 700px;
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -495,21 +473,16 @@ height: 15px;
 -------------------------Contact---------------------------
 ------------------------------------------------------------*/
 
-.contact_me{
-    min-height: 70vh;
-}
-
 .contact_me div{
     height: 150px;
     width: 100vw;
-    border: black solid 3px;
     text-align: center;
     background-image: url('./Assets/steffi-harms-Cj0tPzC5Uic-unsplash-1024.jpg')
 }
 
 .contact_me h2{
     color: white;
-    margin: 60px;
+    line-height: 150px;
 }
 
 .contact_me article{
@@ -525,7 +498,7 @@ height: 15px;
     max-width: 460px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -542,11 +515,12 @@ height: 15px;
     max-width: 460px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
 
 .contact_me article section i{
     width: 200px;
-    height: 200px;
+    height: 150px;
 }
 
 .fa-brands.fa-github{
@@ -555,11 +529,4 @@ height: 15px;
 
 .fa-brands.fa-linkedin{
     font-size: 80pt;
-}
-
-.footer_section{
-    width: 100vw;
-    height: 300px;
-    background-color: black;
-    margin-top: 100px;
 }
