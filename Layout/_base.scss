@@ -365,23 +365,6 @@ li{
     margin-right: 10px;
 }
 
-.education_ag div h3 span:nth-child(1), .education_ag div h3 span:nth-child(3){
-    color: rgb(197, 43, 151);
-}
-
-.education_ag div h3 span:nth-child(2), .education_ag div h3 span:nth-child(4){
-    color: grey;
-}
-
-.education_gu div h3 span:nth-child(1), .education_gu div h3 span:nth-child(3){ 
-    color: blue;
-}
-
-.education_mi div h3 span:nth-child(2), .education_mi div h3 span:nth-child(4){
-    color: orange;
-}
-
-
 /*-----------------------------------------------------------
 -------------------------Work---------------------------
 ------------------------------------------------------------*/
@@ -430,26 +413,6 @@ li{
     margin-right: 10px;
 }
 
-.work_electrolux div h3 span:nth-child(1), .work_electrolux div h3 span:nth-child(3){
-    color: rgb(19, 27, 141);
-}
-
-.work_p7 div h3 span:nth-child(1), .work_p7 div h3 span:nth-child(3){ 
-    color: rgb(168, 168, 8);
-}
-
-.work_p7 div h3 span:nth-child(2), .work_p7 div h3 span:nth-child(4){ 
-    color: red;
-}
-
-.work_nellie div h3 span:nth-child(1), .work_nellie div h3 span:nth-child(3){
-    color: rgb(0, 195, 255);
-}
-
-.work_nellie div h3 span:nth-child(2), .work_nellie div h3 span:nth-child(4){
-    color: brown;
-}
-
 /*-----------------------------------------------------------
 -------------------------Projects---------------------------
 ------------------------------------------------------------*/
@@ -459,33 +422,55 @@ li{
     border: black solid 2px;
 }
 
-.projects h2{
+.projekts_header_box{
     height: 15vh;
-    background-color: red;
+    width: 100vw;
+    border: black solid 3px;
+    text-align: center;
+    background-image: url('./Assets/steffi-harms-Cj0tPzC5Uic-unsplash-1024.jpg');
+}
+
+.projects h2{
+    color: white;
+    margin-top: 5vh;
+}
+
+.projects_to_the_moon{
+    height: 10vh;
+    width: 100vw;
+    border: black solid 3px;
+    text-align: center;
+}
+
+.projects h3{
+    margin-top: 3vh;
 }
 
 .projects article{
     min-height: 70vh;
-    background-color: greenyellow;
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.projects h3{
-    height: 15vh;
-    background-color: yellow;
-    width: 100%;
+    text-align: center;
 }
 
 .projects article p{
-    height: 40vh;
-    border: black solid 2px;
+    height: 20vh;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .projects article section{
-    height: 100vh;
+    min-height: auto;
     border: solid black 2px;
+}
+
+.projects article section img{
+    height: auto;
+    width: 100%;
 }
 
 /*-----------------------------------------------------------
