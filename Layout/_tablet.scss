@@ -68,6 +68,7 @@ nav {
     height: auto;
     width: 100%;
     max-width: 250px;
+    border-radius: 5px;
 }
 
 /*-----------------------------------------------------------
@@ -86,20 +87,6 @@ nav {
 -------------------------Education---------------------------
 ------------------------------------------------------------*/
 
-.education_container{
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.education_box article{
-    width: 40vw;
-    max-width: 500px;
-    max-height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    height: fit-content;
-}
 
 /*-----------------------------------------------------------
 -------------------------Work---------------------------
@@ -125,44 +112,9 @@ nav {
 -------------------------Projects---------------------------
 ------------------------------------------------------------*/
 
-.projects article{
-    display: flex;
-    align-items: center;
-}
 
-.projects article p{
-    height: 60vh;
-    width: 50vw;
-}
-
-.projects article section{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-}
 
 /*-----------------------------------------------------------
 -------------------------Contact---------------------------
 ------------------------------------------------------------*/
 
-.contact_me{
-    min-height: 100vh;
-    border: black 2px solid;
-}
-
-.contact_me article{
-    display: flex;
-    align-items: center;
-}
-
-.contact_me article address{
-    width: 50vw;
-
-}
-
-.contact_me article section{
-   width: 50vw;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-}
