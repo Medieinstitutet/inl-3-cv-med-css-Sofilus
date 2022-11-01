@@ -29,51 +29,78 @@ nav {
 }
 
 /*-----------------------------------------------------------
+-------------------------Header------------------------------
+------------------------------------------------------------*/
+
+.img_sofia img{
+    max-width: 300px;
+     }
+     
+.first_page_box p{
+    font-size: 1.5rem;  
+}
+
+
+/*-----------------------------------------------------------
 -------------------------About me------------------------------
 ------------------------------------------------------------*/
 
+.about_me div h2{
+    font-size: 5rem;
+    line-height: 150px;
+}
+
+.about_me div{
+    height: 150px;
+}
+
 .about_me_article{
    display: flex;
-   margin-left: auto;
-   margin-right: auto;
    align-items: center;
-   
+   justify-content: center;
 }
 
 .about_me_article_box{
-     max-width: 700px;
+     max-width: 600px;
      height: fit-content;
 }
 
 .about_me_article_box p{
-    width: 50vw;
     max-width: 650px;
+    font-size: 1rem;
 }
 
 .about_me_icons{
     display: none;
 }
 
-.about_me_img{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 85vh;
-    width: 50vw;
-    max-width: 700px;
-}
-
-.about_me_img img{
+.about_me_article img{
     height: auto;
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     border-radius: 5px;
+    display: block;
 }
 
+.img_fotball{
+    margin-right: 50px;
+}
+
+.img_dog{
+    margin-left: 50px;
+}
 /*-----------------------------------------------------------
 -------------------------Skills----------------------------
 ------------------------------------------------------------*/
+
+.skills_header_box{
+    height: 150px;
+}
+
+.skills_header{
+   line-height: 150px;
+    font-size: 5rem;
+}
 
 .skills_box{
     display: grid;
@@ -82,39 +109,120 @@ nav {
     justify-content: space-around;
 }
 
+.skills_language article, .skills_code article{
+    max-width: 420px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    background: radial-gradient(#717577, #44494d);
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 7px 15px -10px, rgb(38, 57, 77) 0px -7px 15px -10px;
+    margin-bottom: 60px;
+}
+
+.skills_language h2, .skills_code h2{
+    font-size: 3rem;
+}
+
+.skills_code article ul li, .skills_language article ul li{
+    font-size: 1.5rem;
+}
 
 /*-----------------------------------------------------------
 -------------------------Education---------------------------
 ------------------------------------------------------------*/
 
+.education_header_box{
+    height: 150px;
+}
+
+.education_header_box h2{
+    line-height: 150px;
+    font-size: 5rem;
+}
+
+.education_box article h3{
+    font-size: 2.1rem
+}
+
+.education_box article h4{
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 2px 2px 8px #cecece;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 
 /*-----------------------------------------------------------
 -------------------------Work---------------------------
 ------------------------------------------------------------*/
+.work_header_box{
+    height: 150px;
+}
 
-.work_container {
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+.work_header_box h2{
+    line-height: 150px;
+    font-size: 5rem;
+}
+
+.work_box article h3{
+    font-size: 1.8rem
+}
+
+.work_box article h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+
+.work_box article p{
+    margin: 10px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
 }
 
 
-.work_box article{
-    width: 40vw;
-    max-width: 500px;
-    max-height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    height: fit-content;
-    
-}
 /*-----------------------------------------------------------
 -------------------------Projects---------------------------
 ------------------------------------------------------------*/
 
+.projekts_header_box{
+    height: 150px;
+}
 
+.projects h2{
+    line-height: 150px;
+    font-size: 5rem;
+}
+
+.projects h3{
+    font-size: 2.1rem;
+}
+
+.projects article p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.projects article section img{
+    max-width: 400px;
+}
 
 /*-----------------------------------------------------------
 -------------------------Contact---------------------------
 ------------------------------------------------------------*/
 
+.contact_me div{
+    height: 150px;
+}
+
+.contact_me h2{
+    line-height: 150px;
+    font-size: 5rem;
+}
+
+.contact_me article address{
+    font-size: 1.3rem;
+}

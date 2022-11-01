@@ -153,6 +153,7 @@ nav ul li{
     max-width: 400px ;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;    
 }
 
 .img_sofia img{
@@ -165,13 +166,13 @@ nav ul li{
      
 .first_page_box p{
     width: 60vw;
-    max-width: 350px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     text-shadow: 2px 2px 8px #cecece;
-    text-align: center;
-    
+    text-align: center; 
+    font-size: 1.2rem;  
 }
 /*-----------------------------------------------------------
 -------------------------About me------------------------------
@@ -180,30 +181,32 @@ nav ul li{
 .about_me{
     background-color: rgba(68, 131, 190, 0.233);
     box-shadow: rgb(38, 57, 77) 0px 7px 15px -10px, rgb(38, 57, 77) 0px -7px 15px -10px;
+    min-height: 700px;
 }
 
 .about_me div{
-    height: 150px;
+    height: 100px;
     width: 100vw;
     text-align: center;
 }
 
 .about_me div h2{
-    line-height: 150px;
+    line-height: 100px;
     font-family: 'Italianno', cursive;
     text-shadow: 2px 2px 4px #ffffff;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .about_me_article{
-    max-width: 1400px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about_me_article_box{
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
     margin-bottom: 15px;
     color: black;
     font-family: 'Dosis', sans-serif;
@@ -212,8 +215,6 @@ nav ul li{
 }
 
 .about_me_article_box p{
-    margin:0;
-    margin-top: 20px;
     margin-left:10px;
     margin-right:10px;
     margin-bottom: 20px;
@@ -248,7 +249,7 @@ nav ul li{
     margin-left: auto;
 }
 
-.about_me_img{
+.about_me_article img{
     display: none;
 }
 
@@ -257,7 +258,7 @@ nav ul li{
 ------------------------------------------------------------*/
 
 .skills_header_box{
-    height: 150px;
+    height: 100px;
     width: 100vw;
     text-align: center;
 }
@@ -269,10 +270,10 @@ nav ul li{
 }
 
 .skills_header{
-   line-height: 150px;
+   line-height: 100px;
    font-family: 'Italianno', cursive;
     text-shadow: 2px 2px 4px #ffffff;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .skills_language, .skills_code{
@@ -280,7 +281,6 @@ nav ul li{
 }
 
 .skills_language article, .skills_code article{
-    width: 100vw;
     max-width: 450px;
     min-height: 300px;
     margin-left: auto;
@@ -298,7 +298,7 @@ nav ul li{
     line-height: 100px;
     font-family: 'Italianno', cursive;
     text-shadow: 2px 2px 4px #000000;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .skills_code article ul, .skills_language article ul{
@@ -349,16 +349,16 @@ nav ul li{
 }
 
 .education_header_box{
-    height: 150px;
+    height: 100px;
     width: 100vw;
     text-align: center;
 }
 
 .education_header_box h2{
-    line-height: 150px;
+    line-height: 100px;
     font-family: 'Italianno', cursive;
     text-shadow: 2px 2px 4px #ffffff;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .education_box{
@@ -389,13 +389,16 @@ nav ul li{
 .education_box article h3{
     font-family: 'Dosis', sans-serif;
     text-shadow: 2px 2px 8px #cecece;
-    font-size: 2rem
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .education_box article h4{
     font-family: 'Dosis', sans-serif;
     text-shadow: 2px 2px 8px #cecece;
     font-size: 1rem;
+    margin-top: 7px;
+    font-weight: 400;
 }
 
 /*-----------------------------------------------------------
@@ -406,13 +409,13 @@ nav ul li{
 }
 
 .work_header_box{
-    height: 150px;
+    height: 100px;
     width: 100vw;
     text-align: center;
 }
 
 .work_header_box h2{
-    line-height: 150px;
+    line-height: 100px;
     text-shadow: 2px 2px 4px #ffffff;
     font-size: 3rem;
    font-family: 'Italianno', cursive;
@@ -443,23 +446,21 @@ nav ul li{
 
 .work_box article h3{
     font-family: 'Dosis', sans-serif;
-    font-size: 1.7rem
+    font-size: 1.3rem
 }
 
 .work_box article h4{
     font-family: 'Dosis', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 5px;
 }
 
 .work_box article p{
-
     margin: 10px;
     margin-top: 20px;
     font-family: 'Dosis', sans-serif;
     font-size: 1.1rem;
 }
-
 
 
 /*-----------------------------------------------------------
@@ -472,16 +473,16 @@ nav ul li{
 }
 
 .projekts_header_box{
-    height: 150px;
+    height: 100px;
     width: 100vw;
     text-align: center;
 }
 
 .projects h2{
-    line-height: 150px;
+    line-height: 100px;
     font-family: 'Italianno', cursive;
     text-shadow: 2px 2px 4px #ffffff;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .projects_to_the_moon{
@@ -492,7 +493,7 @@ nav ul li{
 
 .projects h3{
     font-family: 'Dosis', sans-serif;
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-shadow: 2px 2px 4px #ffffff;
 }
 
@@ -545,17 +546,17 @@ footer section{
 }
 
 .contact_me div{
-    height: 150px;
+    height: 100px;
     width: 100vw;
     text-align: center;
 }
 
 .contact_me h2{
     color: white;
-    line-height: 150px;
+    line-height: 100px;
     font-family: 'Italianno', cursive;
     text-shadow: 2px 2px 4px #000000;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .contact_me article{
