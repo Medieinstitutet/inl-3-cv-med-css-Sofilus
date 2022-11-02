@@ -6,13 +6,8 @@ h2, h3, h4, p{
     margin: 0;
 }
 
-.row_brake{
-    content: ' ';
-    display: block;
-}
-
-.text_align_center{
-    text-align: center;
+body{
+    background-color: rgb(247, 243, 243);
 }
 
 /*-----------------------------------------------------------
@@ -27,30 +22,25 @@ header{
 
 .header_title{
     width: 100vw;
-    background: radial-gradient(#717577, #44494d);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Italianno', cursive;
-    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(68, 131, 190, 0.233);
+    text-shadow: 2px 2px 8px #cecece;
 }
 
 h1{
     margin:0;
-    color:  white;
     font-size: 4rem;
 }
 
 .header_title h2{
     display: none;
-    color: white;
     margin:0;
     font-size: 2.5rem;
 }
-
-
-
 
 /*-----------------------------------------------------------
 -------------------------Menu button------------------------------
@@ -90,15 +80,17 @@ input{
 
 nav {
     position: fixed;
-    top: 75px;
+    top: 0;
     right: 0;
-    background-color: lightseagreen;
+    background: rgba(0, 0, 0, 0.568);
     width: 50vw;
-    height: 50vh;
+    height: 700px;
     visibility: hidden;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     opacity: 0;
     z-index: 2;
+    border-radius: 5px;
+    color: white;
 }
 
 input:checked + .menu nav{
@@ -115,9 +107,9 @@ nav ul{
     height: 100%;
     justify-content: space-evenly;
     text-align: center;
-    font-size: 2.8rem;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.516);
-    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.74);
+    font-family: 'Dosis', sans-serif;
 }
 
 nav ul li{
@@ -125,6 +117,11 @@ nav ul li{
     margin-left: 20px;
     cursor: pointer;
     font-weight: 700;
+    height: 50px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
 }
 
 /*-----------------------------------------------------------

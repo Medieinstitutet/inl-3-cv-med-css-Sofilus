@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="description" content="Portfolio abouts Sofia Olsson">
+    <meta name="robots" content="all">
+    <meta property="og:title" content="Sofias portfolio">
+    <meta property="og:type" content="Portfolio">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="./Assets/Sofia_Olsson.jpg">
+
+    <title>Sofias portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +28,9 @@
             <h1>Sofia Olsson</h1>
             <h2> Välkommen till min portfolio</h2>
         </div>
-        <input type="checkbox">
+        <label for="checkbox"></label> <input type="checkbox" id="menu" aria-label="Menu" role="Menu opener">
         <div class="menu">
-            <button class="menu_button">
+            <button aria-label="menuButton" id="Menu" class="menu_button">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -32,7 +40,7 @@
                     <li>Om mig</li>
                     <li>Kompetenser</li>
                     <li>Utbildning</li>
-                    <li>Arbetslivserfarenheter</li>
+                    <li>Arbetslivs- <br> erfarenheter</li>
                     <li>Projekt</li>
                     <li>Kontakta mig</li>
                 </ul>
@@ -42,7 +50,7 @@
     <main>
         <section class="first_page">
             <div class="img_sofia">
-                <img src="Assets/Sofia_Olsson.jpg" alt="">
+                <img src="Assets/Sofia_Olsson.jpg" width="320" height="530"  loading="lazy" alt="En mörkhårig tjej som sitter på en stol och tittar in i kameran. Hon har en midsommarkrans på huvudet och tittar in i kameran.">
             </div>
             <div class="first_page_box">
                 <p>  
@@ -56,7 +64,7 @@
                 <h2>Vem är jag?</h2>
             </div>
             <article class="about_me_article">
-                <img class="img_dog" src=".\Assets\Dog.jpg" alt="">
+                <img class="img_dog" src="./Assets/Dog.jpg" width="200" height="250" loading="lazy" alt=" En tjej som sitter på huk. Bredvid ligger en hund som är svart och brun. De befinner sig på en hundutställning och har vunnit pris.">
                 <section class="about_me_article_box">
                     <p> Hej! Mitt namn är Sofia Olsson och jag är en aktiv och driven 
                         tjej från Alingsås. I Oktober 2022 påbörjade jag min utbildning 
@@ -94,7 +102,7 @@
                         utbildning hos er men även de saker just ni använder. 
                     </p>
                 </section>
-                <img class="img_fotball" src=".\Assets\fotball.jpg" alt="">
+                <img class="img_fotball" src="./Assets/fotball.jpg" width="200" height="300" loading="lazy" alt="En blond tjej med fotbollskläder som håller en boll under armen och tittar in i kameran.">
                 <section class="about_me_icons">
                     <i class="fa-solid fa-dog"></i>
                     <i class="fa-regular fa-futbol"></i>
@@ -209,7 +217,7 @@
                             <h3> Värnplikt, <br> Södra skånska regementet P7 </h3>
                             <h4>2019-2020, Södra sandby</h4>
                         </div>
-                        <p>Gjorde värnplikten på P7 nere i skåne under 11 månader som stabsassistent.
+                        <p> Gjorde värnplikten på P7 nere i skåne under 11 månader som stabsassistent.
                             Där fick jag lära mig att arbeta både enskillt och i grupp. Jag fick erfarenheter
                             för livet.
                         </p>
@@ -243,9 +251,8 @@
                      animi? Porro facilis quasi quae placeat odit sint optio nulla,
                     nostrum amet repudiandae?</p>
                 <section>
-                    <button>
-                        <img src=".\Assets\Tothemoonproject1.png" alt="">
-                        <a href=""></a>
+                    <button aria-label="projectToTheMoonButton">
+                        <img src="./Assets/Tothemoonproject.jpg" width="350" height="200" loading="lazy" alt=" En austonaut">
                     </button>
                 </section>
             </article>
@@ -258,20 +265,18 @@
             </div>
             <article>
                 <address>
-                    <h3>Telefon</h3>
-                    <p>+46 (0)768-656290</p>
-                    <h3>Epost</h3>
-                    <p>sofia00olsson@gmail.com</p>
-                    <h3>Adress</h3>
-                    <p>Skepplanda, Sverige</p>
-                    <button>
+                    Telefon: +46 (0)768-656290
+                    <br> <br>
+                    Epost: sofia00olsson@gmail.com
+                    <br> <br>
+                    Adress: Skepplanda, Sverige
+                    <br> <br>
+                    <button aria-label="githubButton">
                         <i class="fa-brands fa-github">
-                            <a href=""></a>
                         </i>
                     </button>
-                    <button>
+                    <button aria-label="linkedinButton">
                         <i class="fa-brands fa-linkedin">
-                            <a href=""></a>
                         </i>
                     </button>
                 </address>
