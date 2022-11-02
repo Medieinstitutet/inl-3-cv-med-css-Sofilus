@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description" content="Portfolio abouts Sofia Olsson">
     <meta name="robots" content="all">
     <meta property="og:title" content="Sofias portfolio">
     <meta property="og:type" content="Portfolio">
     <meta property="og:url" content="">
     <meta property="og:image" content="./Assets/Sofia_Olsson.jpg">
-
     <title>Sofias portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
@@ -28,7 +26,7 @@
             <h1>Sofia Olsson</h1>
             <h2> Välkommen till min portfolio</h2>
         </div>
-        <label for="checkbox"></label> <input type="checkbox" id="menu" aria-label="Menu" role="Menu opener">
+        <input type="checkbox" id="menu" aria-label="Menu" role="checkbox" aria-checked="mixed">
         <div class="menu">
             <button aria-label="menuButton" id="Menu" class="menu_button">
                 <span></span>
@@ -37,12 +35,24 @@
             </button>
             <nav>
                 <ul class="ham_menu_open">
-                    <li>Om mig</li>
-                    <li>Kompetenser</li>
-                    <li>Utbildning</li>
-                    <li>Arbetslivs- <br> erfarenheter</li>
-                    <li>Projekt</li>
-                    <li>Kontakta mig</li>
+                    <li>
+                        <a href="#about_me">Om mig</a> 
+                    </li>
+                    <li>
+                        <a href="#skills">Kompetenser</a> 
+                    </li>
+                    <li>
+                        <a href="#education">Utbildning</a>
+                    </li>
+                    <li>
+                        <a href="#work">Arbetslivs- <br> erfarenheter</a> 
+                    </li>
+                    <li>
+                        <a href="#projects">Projekt</a> 
+                    </li>
+                    <li>
+                        <a href="#contact_me">Kontakta mig</a> 
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -59,7 +69,7 @@
                 </p>
             </div>
         </section>
-        <section class="about_me">
+        <section class="about_me" id="about_me">
             <div>
                 <h2>Vem är jag?</h2>
             </div>
@@ -109,7 +119,7 @@
                 </section> 
             </article>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="skills_header_box">
                 <h2 class="skills_header">Kompetenser</h2>
             </div>
@@ -169,7 +179,7 @@
                 </section>
             </div>        
         </section>
-        <section class="education"> 
+        <section class="education" id="education"> 
             <div class="education_header_box">
                 <h2>Utbildning</h2>
             </div>
@@ -194,7 +204,7 @@
                 </section>
             </div>
         </section>
-        <section class="work">
+        <section class="work" id="work">
             <div class="work_header_box">
                 <h2>Arbetslivserfarenheter</h2>
             </div>
@@ -236,7 +246,7 @@
                 </section>
             </div>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <div class="projekts_header_box">
                 <h2>Projekt</h2>
             </div>
@@ -259,7 +269,7 @@
         </section>
     </main>
     <footer>
-        <section class="contact_me">
+        <section class="contact_me" id="contact_me">
             <div>
                 <h2>Kontakta mig</h2>
             </div>

@@ -82,7 +82,7 @@ nav {
     position: fixed;
     top: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.568);
+    background: rgba(0, 0, 0, 0.74);
     width: 50vw;
     height: 700px;
     visibility: hidden;
@@ -108,7 +108,7 @@ nav ul{
     justify-content: space-evenly;
     text-align: center;
     font-size: 1.5rem;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.74);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.836);
     font-family: 'Dosis', sans-serif;
 }
 
@@ -118,6 +118,12 @@ nav ul li{
     cursor: pointer;
     font-weight: 700;
     height: 50px;
+    width: 100%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
 }
 
 nav ul li:hover{
@@ -169,7 +175,7 @@ nav ul li:hover{
     margin-top: 30px;
     text-shadow: 2px 2px 8px #cecece;
     text-align: center; 
-    font-size: 1.2rem;  
+    font-size: 1.1rem;  
 }
 /*-----------------------------------------------------------
 -------------------------About me------------------------------
@@ -214,10 +220,6 @@ nav ul li:hover{
 .about_me_article_box p{
     margin-left:10px;
     margin-right:10px;
-    margin-bottom: 20px;
-}
-
-.about_me_article_box p:nth-child(5){
     margin-bottom: 20px;
 }
 
@@ -519,6 +521,7 @@ nav ul li:hover{
     background-color: transparent;
     padding: 0;
     max-height: 177.75px;
+    cursor: pointer;
 }
 
 .projects article section img:hover{
@@ -590,6 +593,7 @@ footer section{
     margin-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .contact_me article address button:hover{
@@ -599,10 +603,10 @@ footer section{
 
 .fa-brands.fa-github{
     font-size: 80pt;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 3px 3px 5px #000000;
 }
 
 .fa-brands.fa-linkedin{
     font-size: 80pt;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 3px 3px 5px #000000;
 }
