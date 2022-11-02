@@ -1,6 +1,35 @@
 /*-----------------------------------------------------------
 -------------------------Header------------------------------
 ------------------------------------------------------------*/
+.icon_header{
+    display: block;
+    background-color: rgba(68, 131, 190, 0);
+    display: flex;
+    margin-right: 5px;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}    
+
+.icon_header button{
+    background-color: transparent;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+.icon_header i{
+    margin-right: 20px;
+}
+
+.icon_header .fa-linkedin:hover{
+    color: grey;
+}
+
+.icon_header .fa-github:hover{
+    color: grey;
+}
 
 .header_title h2{
     display: block;
