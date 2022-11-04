@@ -1,0 +1,259 @@
+/*-----------------------------------------------------------
+-------------------------Header------------------------------
+------------------------------------------------------------*/
+.icon_header{
+    display: block;
+    background-color: rgba(68, 131, 190, 0);
+    display: flex;
+    margin-right: 5px;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    
+}    
+
+.icon_header button{
+    background-color: transparent;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+
+.icon_header i{
+    margin-right: 20px;
+}
+
+.icon_header .fa-linkedin:hover{
+    color: grey;
+}
+
+.icon_header .fa-github:hover{
+    color: grey;
+}
+
+.header_title h2{
+    display: block;
+}
+
+/*-----------------------------------------------------------
+-------------------------Menu button------------------------------
+------------------------------------------------------------*/
+
+.menu_button{
+    height: 60px;
+    width: 65px;
+}
+
+.menu_button span{
+    width: 45px;
+}
+
+input{
+    width: 65px;
+    height: 65px;
+}
+
+nav {
+    width: 25vw;
+}
+
+nav ul{
+    font-size: 2rem;
+}
+
+/*-----------------------------------------------------------
+-------------------------Header------------------------------
+------------------------------------------------------------*/
+     
+.first_page_box p{
+    font-size: 1.5rem;  
+}
+
+
+/*-----------------------------------------------------------
+-------------------------About me------------------------------
+------------------------------------------------------------*/
+
+.about_me div h2{
+    font-size: 5rem;
+    line-height: 150px;
+}
+
+.about_me div{
+    height: 150px;
+}
+
+.about_me_article{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.about_me_article_box{
+     max-width: 600px;
+     height: fit-content;
+}
+
+.about_me_article_box p{
+    max-width: 650px;
+    font-size: 1rem;
+}
+
+.about_me_icons{
+    display: none;
+}
+
+.about_me_article img{
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+    display: block;
+}
+
+.img_fotball{
+    margin-right: 50px;
+}
+
+.img_dog{
+    margin-left: 50px;
+}
+/*-----------------------------------------------------------
+-------------------------Skills----------------------------
+------------------------------------------------------------*/
+
+.skills_header_box{
+    height: 150px;
+}
+
+.skills_header{
+   line-height: 150px;
+    font-size: 5rem;
+}
+
+.skills_box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    justify-content: space-around;
+}
+
+.skills_language article, .skills_code article{
+    max-width: 420px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    background: radial-gradient(#717577, #44494d);
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 7px 15px -10px, rgb(38, 57, 77) 0px -7px 15px -10px;
+    margin-bottom: 60px;
+}
+
+.skills_language h2, .skills_code h2{
+    font-size: 3rem;
+}
+
+.skills_code article ul li, .skills_language article ul li{
+    font-size: 1.5rem;
+}
+
+/*-----------------------------------------------------------
+-------------------------Education---------------------------
+------------------------------------------------------------*/
+
+.education_header_box{
+    height: 150px;
+}
+
+.education_header_box h2{
+    line-height: 150px;
+    font-size: 5rem;
+}
+
+.education_box article h3{
+    font-size: 2.1rem
+}
+
+.education_box article h4{
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 2px 2px 8px #cecece;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/*-----------------------------------------------------------
+-------------------------Work---------------------------
+------------------------------------------------------------*/
+.work_header_box{
+    height: 150px;
+}
+
+.work_header_box h2{
+    line-height: 150px;
+    font-size: 5rem;
+}
+
+.work_box article h3{
+    font-size: 1.8rem
+}
+
+.work_box article h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+
+.work_box article p{
+    margin: 10px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+/*-----------------------------------------------------------
+-------------------------Projects---------------------------
+------------------------------------------------------------*/
+
+.projekts_header_box{
+    height: 150px;
+}
+
+.projects h2{
+    line-height: 150px;
+    font-size: 5rem;
+}
+
+.projects h3{
+    font-size: 2.1rem;
+}
+
+.projects article p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.projects article section img{
+    max-width: 400px;
+}
+
+/*-----------------------------------------------------------
+-------------------------Contact---------------------------
+------------------------------------------------------------*/
+
+.contact_me div{
+    height: 150px;
+}
+
+.contact_me h2{
+    line-height: 150px;
+    font-size: 5rem;
+}
+
+.contact_me article address{
+    font-size: 1.3rem;
+}
